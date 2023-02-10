@@ -13,7 +13,7 @@ default_args = {
     "start_date": datetime(2023, 2, 10),
     "email": ["airflow@airflow.com"],
     "email_on_failure": False,
-    "email_on_retry": False,
+    "email_on_retry": False, #fale
     "retries": 1,
     "retry_delay": timedelta(minutes=5),
     # 'queue': 'bash_queue',
